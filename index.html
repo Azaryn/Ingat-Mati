@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingat Umur</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <main class="container">
+        <i id="theme-toggle" class="bi bi-sun-fill"></i>
+        <h1>Kalkulator Umur</h1>
+        <p>Kalkulator sederhana untuk menghitung umur kamu . . . </p>
+        <article>
+            <form method="post" onsubmit="return calculateAge()">
+                <label for="date">Tanggal Lahir
+                    <input type="date" id="date" name="date">
+                    <small id="help-text" name="submit"></small>
+                </label>
+                <input type="submit" name="submit" value="Hitung">
+            </form>
+            <p id="result"></p>
+        </article>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

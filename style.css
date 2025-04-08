@@ -1,0 +1,9 @@
+.container {
+    max-width: 500px;
+}
+i#theme-toggle{
+    font-size: 1.5rem;
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+}
